@@ -2,7 +2,7 @@ set :bundle_without, %w{development test staging}.join(' ')
 
 set :stage, :production
 
-set :repo_url, ''
+set :repo_url, 'git@github.com:anbublacky/deploy-with-passenger.git'
 
 set :branch, 'master'
 
