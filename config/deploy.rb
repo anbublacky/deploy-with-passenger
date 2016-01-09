@@ -1,11 +1,11 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+#lock '3.4.0'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'deploy_with_passenger'
+#set :repo_url, 'git@example.com:me/my_repo.git'
 
 set :passenger_restart_with_touch, true
-
+set :passenger_rvm_ruby_version, '2.2.4'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

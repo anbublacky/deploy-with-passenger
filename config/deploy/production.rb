@@ -8,7 +8,7 @@ set :branch, 'master'
 
 set :deploy_to, '~/deploy_with_passenger' # added for production server
 
-server = %w{ubuntu@54.86.226.24}
+server = %w{ubuntu@52.90.50.4}
 
 role :app, server
 role :web, server
